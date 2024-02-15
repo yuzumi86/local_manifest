@@ -22,7 +22,7 @@
 
 
    <!-- Common -->
-    <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"     groups="device" remote="even" revision="lineage-19.0"/>
-    <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" groups="device" remote="even" revision="aosp12"/>
-    <project path="vendor/realme/even-ims" name="vendor_realme_even-ims" groups="device" remote="cumaRull" revision="master"/>
+    <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-19.0"/>
+    <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="even" revision="aosp12"/>
+    <project path="vendor/realme/even-ims" name="vendor_realme_even-ims" remote="cumaRull" revision="master"/>
 </manifest>
