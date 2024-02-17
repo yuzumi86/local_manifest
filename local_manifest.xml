@@ -14,15 +14,15 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/RMX3191" name="device_oplus_even" remote="cumaRull" revision="master" />
+   <project path="device/realme/even" name="device_oplus_even" remote="even" revision="staging/thirteen" />
    <!--Kernel -->
-   <project path="kernel/realme/RMX3191" name="liquid_kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
+   <project path="kernel/realme/even" name="liquid_kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
    <!--Vendor -->
-   <project path="vendor/realme/RMX3191" name="vendor_realme_even" remote="cumaRull" revision="master" />
+   <project path="vendor/realme/even" name="vendor_realme_even" remote="kharame-devices" revision="twelve" />
 
 
    <!-- Common -->
     <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-19.0"/>
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="even" revision="aosp12"/>
-    <project path="vendor/realme/even-ims" name="vendor_realme_even-ims" remote="cumaRull" revision="master"/>
+    <project path="vendor/realme/even-ims" name="vendor_realme_even-ims" remote="kharame-devices" revision="eleven-rmui2"/>
 </manifest>
