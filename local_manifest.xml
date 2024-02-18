@@ -7,6 +7,9 @@
      <remote name="cumaRull"
                    fetch="https://github.com/cumaRull"
                    clone-depth="1" />
+    <remote name="RullV2"
+                   fetch="https://github.com/RullV2"
+                   clone-depth="1" />
       <remote name="kharame-devices"
                     fetch="https://github.com/KharaMe-devices"
                     clone-depth="1" />        
@@ -14,11 +17,11 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="device_oplus_even" remote="even" revision="staging/thirteen" />
+   <project path="device/realme/RMX3191" name="device_realme_Rmx3191" remote="RullV2" revision="master" />
    <!--Kernel -->
-   <project path="kernel/realme/even" name="liquid_kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
+   <project path="kernel/realme/RMX3191" name="liquid_kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
    <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even" remote="kharame-devices" revision="twelve" />
+   <project path="vendor/realme/RMX3191" name="vendor_realme_even" remote="cumaRull" revision="twelve" />
 
 
    <!-- Common -->
