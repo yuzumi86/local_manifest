@@ -21,7 +21,7 @@
    <!--Kernel -->
    <project path="kernel/realme/even" name="liquid_kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
    <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even" remote="even" revision="twelve" />
+   <project path="vendor/realme/even" name="vendor_realme_even" remote="kharame-devices" revision="twelve" />
 
 
    <!-- Common -->
