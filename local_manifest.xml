@@ -17,7 +17,7 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/RMX3191" name="device_realme_RMX3191" remote="RullV2" revision="master" />
+   <project path="device/realme/RMX3191" name="device_oplus_even" remote="cumaRull" revision="master" />
    <!--Kernel -->
    <project path="kernel/realme/RMX3191" name="liquid_kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
    <!--Vendor -->
