@@ -13,24 +13,24 @@
       <remote name="kharame-devices"
                     fetch="https://github.com/KharaMe-devices"
                     clone-depth="1" />
-    <remote name="ims"
-                    fetch="https://github.com/AOSP-12-RMX2020"
+    <remote name="r5x"
+                    fetch="https://github.com/eun0115"
                     clone-depth="1" />
       <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="device_oplus_even" remote="even" revision="staging/thirteen" />
+   <project path="device/realme/r5x" name="device_realme_r5x" remote="r5x" revision="thirteen" />
    <!--Kernel -->
-   <project path="kernel/realme/even" name="kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
+   <project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="r5x" revision="fourteen" />
    <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even" remote="cumaRull" revision="master" />
+   <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="r5x" revision="thirteen" />
 
 
    <!-- Common -->
-    <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-19.0"/>
+ <!--   <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-19.0"/>
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="even" revision="aosp12"/>
-    <project path="vendor/realme/even-ims" name="vendor_realme_even-ims" remote="kharame-devices" revision="eleven-rmui2"/>
+    <project path="vendor/realme/even-ims" name="vendor_realme_even-ims" remote="kharame-devices" revision="eleven-rmui2"/> -->
  <!--   <project path="system/security" name="android_system_security" remote="ims" revision="a12L"/>
     <project path="packages/modules/Wifi" name="packages_modules_wifi" remote="ims" revision="12"/>
     <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ims" revision="aosp-12"/>
