@@ -20,7 +20,7 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="device_oplus_even" remote="eun" revision="thirteen" />
+   <project path="device/realme/even" name="device_oplus_even" remote="cumaRull" revision="master" />
    <!--Kernel -->
    <project path="kernel/realme/even" name="kernel_realme_even" remote="cumaRull" revision="OSS-RUI2" />
    <!--Vendor -->
