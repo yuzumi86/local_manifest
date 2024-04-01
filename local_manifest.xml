@@ -13,14 +13,14 @@
       <remote name="kharame-devices"
                     fetch="https://github.com/KharaMe-devices"
                     clone-depth="1" />
-    <remote name="r5x"
-                    fetch="https://github.com/eun0115"
+    <remote name="yz"
+                    fetch="https://github.com/yuzumi86"
                     clone-depth="1" />
       <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="device_realme_even" remote="even" revision="wip" />
+   <project path="device/realme/even" name="device_realme_even" remote="yz" revision="wip" />
    <!--Kernel -->
   <project path="kernel/realme/even" name="kernel_realme_even" remote="even" revision="even-rmui2" />
    <!--Vendor -->
