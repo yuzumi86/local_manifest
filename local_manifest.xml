@@ -20,9 +20,9 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/even" name="device_realme_even" remote="yz" revision="chiper-twelve-L" />
+   <project path="device/realme/even" name="device_realme_even" remote="yz" revision="fifteen" />
    <!--Kernel -->
-  <project path="kernel/realme/even" name="kernel_realme_even" remote="even" revision="even-rmui2" />
+  <project path="kernel/realme/even" name="kernel_realme_even" remote="cumaRull" revision="master" />
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_oplus_even" remote="eun" revision="twelve" />
 
