@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="even"
-                 fetch="https://github.com/Realme-C25-Series-Development"
+    <remote  name="clang"
+                 fetch="https://gitlab.com/clangsantoni"
                  revision="1" />
 
      <remote name="cumaRull"
@@ -25,7 +25,8 @@
   <project path="kernel/realme/even" name="kernel_realme_even" remote="yuzumi" revision="OSS-R" />
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="cumaRull" revision="rmui2" />
-
+<project path="prebuilt/clang" name="zyc_clang" remote="clang" revision="14" />
+    
 
    <!-- Common -->
     <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-19.0"/>
