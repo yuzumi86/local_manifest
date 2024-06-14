@@ -2,11 +2,11 @@
 <manifest>
     <remote  name="clang"
                  fetch="https://gitlab.com/clangsantoni"
-                 revision="1" />
+                 clone-depth="1" />
 
     <remote  name="even"
                  fetch="https://github.com/Realme-C25-Series-Development"
-                 revision="1" />
+                 clone-depth="1" />
 
      <remote name="cumaRull"
                    fetch="https://github.com/cumaRull"
