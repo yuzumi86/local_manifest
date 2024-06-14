@@ -24,7 +24,7 @@
                     fetch="https://github.com/"
                     clone-depth="1" />         
    <!--Tree -->
-   <project path="device/realme/RMX3191" name="device_realme_RMX3191" remote="yuzumi" revision="master" />
+   <project path="device/realme/RMX3191" name="device_realme_even" remote="yuzumi" revision="master" />
    <!--Kernel -->
   <project path="kernel/realme/even" name="kernel_realme_even" remote="yuzumi" revision="OSS-R" />
    <!--Vendor -->
