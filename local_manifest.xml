@@ -4,6 +4,10 @@
                  fetch="https://gitlab.com/clangsantoni"
                  revision="1" />
 
+    <remote  name="even"
+                 fetch="https://github.com/Realme-C25-Series-Development"
+                 revision="1" />
+
      <remote name="cumaRull"
                    fetch="https://github.com/cumaRull"
                    clone-depth="1" />
