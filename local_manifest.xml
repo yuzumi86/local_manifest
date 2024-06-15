@@ -4,6 +4,10 @@
                  fetch="https://gitlab.com/clangsantoni"
                  clone-depth="1" />
 
+    <remote name="proton-clang"
+                fetch="https://github.com/kdrag0n"
+                clone-depth="1" />
+
     <remote  name="even"
                  fetch="https://github.com/Realme-C25-Series-Development"
                  clone-depth="1" />
@@ -30,7 +34,7 @@
    <!--Vendor -->
    <project path="vendor/realme/even" name="vendor_realme_even" remote="cumaRull" revision="rmui2" />
    <!-- Clang -->
-   <project path="prebuilt/clang/zycClang" name="zyc_clang" remote="clang" revision="14" />
+   <project path="prebuilt/clang/proton-clang" name="proton-clang" remote="proton-clang" revision="master" />
     
 
    <!-- Common -->
