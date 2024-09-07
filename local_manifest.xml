@@ -34,7 +34,7 @@
    <!--Kernel -->
   <project path="kernel/realme/even" name="kernel_realme_even" remote="yuzumi" revision="OSS-R" />
    <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even" remote="cumaRull" revision="rmui2" />
+   <project path="vendor/realme/even" name="vendor_realme_even" remote="eun" revision="twelve-oss" />
   <!-- Clang -->
    <project path="prebuilt/clang/proton" name="zyc_clang" remote="clang" revision="14" />
     
