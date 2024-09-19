@@ -34,7 +34,7 @@
    <!--Kernel -->
   <project path="kernel/realme/even" name="kernel_realme_even" remote="even" revision="even-rmui2" />
    <!--Vendor -->
-   <project path="vendor/realme/even" name="vendor_realme_even" remote="eun" revision="twelve-oss" />
+   <project path="vendor/realme/RMX3191" name="vendor_realme_RMX3191" remote="cumaRull" revision="twelve-oss" />
   <!-- Clang -->
    <project path="prebuilt/clang/proton" name="proton-clang" remote="proton-clang" revision="master" />
     
