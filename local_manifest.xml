@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="clang"
-                 fetch="https://gitlab.com/clangsantoni"
+    <remote  name="vndrsp"
+                 fetch="https://github.com/LineageOS"
                  clone-depth="1" />
 
     <remote name="proton-clang"
@@ -43,5 +43,5 @@
     <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-19.0"/>
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="even" revision="aosp12"/>
     <project path="vendor/realme/even-ims" name="vendor_oplus_even-ims" remote="eun" revision="twelve-rmui2"/>
-
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="vndrsp" revision="lineage-20" />
 </manifest>
