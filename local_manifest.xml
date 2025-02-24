@@ -1,47 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="vndrsp"
-                 fetch="https://github.com/LineageOS"
-                 clone-depth="1" />
-
-    <remote name="proton-clang"
-                fetch="https://github.com/kdrag0n"
-                clone-depth="1" />
-
-    <remote  name="even"
-                 fetch="https://github.com/Realme-C25-Series-Development"
-                 clone-depth="1" />
-
-     <remote name="cumaRull"
-                   fetch="https://github.com/cumaRull"
-                   clone-depth="1" />
-    <remote name="eun"
-                   fetch="https://github.com/eun0115"
-                   clone-depth="1" />
-      <remote name="kharame-devices"
-                    fetch="https://github.com/KharaMe-devices"
-                    clone-depth="1" />
-    <remote name="yuzumi"
-                    fetch="https://github.com/yuzumi86"
-                    clone-depth="1" />
       <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
 
 
     <!--Tree -->
-   <project path="device/realme/RMX3191" name="android_device_realme_RMX3191" remote="cumaRull" revision="master" />
-   <!--Kernel -->
-  <project path="kernel/realme/even" name="kernel_realme_even" remote="even" revision="even-rmui2" />
+   <project path="device/realme/even" name="yuzumi86/device_realme_even" remote="gh" revision="thirteen" />
    <!--Vendor -->
-   <project path="vendor/realme/even" name="android_vendor_realme_even" remote="cumaRull" revision="twelve-oss" />
+   <project path="vendor/realme/even" name="yuzumi86/vendor_realme_even" remote="gh" revision="thirteen" />
   <!-- Clang -->
-   <project path="prebuilt/clang/proton" name="proton-clang" remote="proton-clang" revision="master" />
-    
-
-   <!-- Common -->
-    <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac"   remote="even" revision="lineage-19.0"/>
-    <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="even" revision="aosp12"/>
-    <project path="vendor/realme/even-ims" name="vendor_oplus_even-ims" remote="eun" revision="twelve-rmui2"/>
-
 </manifest>
