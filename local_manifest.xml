@@ -10,12 +10,12 @@
     <!--Tree -->
    <project path="device/realme/even" name="yuzumi86/device_realme_even" remote="gh" revision="thirteen" />
    <!-- Kernel-->
-   <project path="kernel/realme/even" name="cumaRull/liquid_kernel_realme_even" remote="gh" revision="nonksu" />  
+   <project path="kernel/realme/even" name="Realme-C25-Series-Development/kernel_realme_even" remote="gh" revision="even-rmui2" />  
    <!--Vendor -->
    <project path="vendor/realme/even" name="yuzumi86/vendor_realme_even" remote="gh" revision="thirteen" />
    <!--Hardware Mediatek -->
    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-20" />
    <!-- Clang -->
-   <project path="prebuilts/clang/host/linux-x86/mylittleclang" name="clangsantoni/neutron-clang" remote="gitlab" revision="05012024" />
+   <project path="prebuilts/clang/host/linux-x86/mylittleclang" name="android_prebuilts_clang_host_linux-x86_clang-6573524" remote="gh" revision="10.0" />
        
 </manifest>
