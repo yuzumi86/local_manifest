@@ -14,6 +14,6 @@
    <!--Vendor -->
    <project path="vendor/realme/even" name="yuzumi86/vendor_realme_even" remote="gh" revision="thirteen" />
    <!-- Clang -->
-   <project path="prebuilts/clang/host/linux-x86/mylittleclang" name="clangsantoni/zyc_clang" remote="gitlab" revision="14" />
+   <project path="prebuilts/clang/host/linux-x86/mylittleclang" name="clangsantoni/neutron-clang" remote="gitlab" revision="05012024" />
        
 </manifest>
