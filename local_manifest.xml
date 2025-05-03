@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-      <remote name="gh"
+    <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
-      <remote name="gitlab"
-                    fetch="https://gitlab.com/"
-                    clone-depth="1" />
-
     <!--Tree -->
-   <project path="device/realme/even" name="yuzumi86/device_realme_even" remote="gh" revision="thirteen" />
-   <!-- Kernel-->
-   <project path="kernel/realme/even" name="Realme-C25-Series-Development/kernel_realme_even" remote="gh" revision="even-rmui2" />  
-   <!--Vendor -->
-   <project path="vendor/realme/even" name="yuzumi86/vendor_realme_even" remote="gh" revision="thirteen" />
-   <!--Hardware Mediatek -->
-   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-20" />
-   <!-- Clang -->
-   <project path="prebuilts/clang/host/linux-x86/mylittleclang" name="android_prebuilts_clang_host_linux-x86_clang-6573524" remote="gh" revision="10.0" />
-       
-</manifest>
+    <project path="device/realme/RMX3191" name="cumaRull/device_realme_RMX3191" remote="gh" revision="rui4-dev" />
+    <!--Vendor -->
+    <project path="vendor/realme/RMX3191" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="lineage-20.0" />
+    
+    <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="gh" revision="lineage-21" />
+    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-21" />
+    <project path="packages/apps/RealmeParts" name="HyperTeam/android_packages_apps_RealmeParts" remote="gh" revision="lineage-21" />
+    
+    
+    </manifest>
+
