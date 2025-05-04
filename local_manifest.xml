@@ -7,8 +7,10 @@
     <project path="device/realme/RMX3191" name="cumaRull/device_realme_RMX3191" remote="gh" revision="arrow-13.0" />
     <!--Vendor -->
     <project path="vendor/realme/RMX3191" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="lineage-20.0" />
+    
     <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="gh" revision="lineage-20" />
     <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-20" />
     <project path="packages/apps/RealmeParts" name="HyperTeam/android_packages_apps_RealmeParts" remote="gh" revision="lineage-20" />
+    
+    
     </manifest>
-
